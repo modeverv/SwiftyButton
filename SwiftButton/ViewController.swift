@@ -10,9 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  var count = 5
+  var moji = "アイウエオ"
+
+
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+    count = 10
+    print(count)
+
   }
 
 
